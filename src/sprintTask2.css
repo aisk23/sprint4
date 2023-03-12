@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: 14px;
+    height: 950px;
+    background-color: #DEE5EA;
+}
+
+.shapka{
+    display: flex;
+    height: 40px;
+}
+
+.shapka1{
+    background-color:#0972B6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+}
+
+.search{
+    display: flex;
+    
+}
+
+.searchbox{
+    display: flex;
+    background-color: #03416A;
+    border-radius: 20px; 
+    width: 200px;
+    height: 30px;   
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.searchbox input{
+    border: 0px;
+    width: 80%;
+    background-color: #03416A;
+    outline: none;
+    color: white;
+}
+
+.searchbox ::placeholder{
+    background-color: #03416A;
+    outline-color: #03416A;
+    color: gray;
+}
+
+.lupa{
+    margin: 10px;
+    color:gray;
+}
+
+.poisk{
+    color: gray;
+}
+
+.shapka2{
+    background-color: #0972B6;
+    width: 55%;
+    
+}
+
+
+.content{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 7%;
+    margin-right: 8%;
+}
+
+.navbar{
+    
+    width: 15%;
+    background-color: #DEE5EA;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 270px;
+}
+.navbar a{
+    text-decoration: none;
+    color:#0972B6;
+}
+
+
+
+.navbar a:hover{
+    color:#03416A;
+    text-decoration: underline;
+}
+
+.profile{
+    
+    margin-left: 50px;
+    background-color: #DEE5EA;
+    height: 520px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+}
+
+.myprofile{
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.profilepicture{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:100%;
+}
+
+.profilepicture img{
+    width: 100%;
+    height: 90%;
+}
+
+.profilebutton{
+    border-radius: 5px;
+    background-color:lightgray;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilebutton a{
+    text-decoration: none;
+    color:#03416A;
+}
+
+.friends{
+    border-radius: 5px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.friend{
+    height: 50px;
+    width: 50px;
+
+}
+
+.friends a {
+    text-decoration: none;
+    color:#03416A;
+}
+
+
+
+.firstrow{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondrow{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.friend img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.friend a:hover {
+    text-decoration: underline;
+}
+
+.numoffriends{
+
+    margin-top: 7px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items : center;
+    flex-direction: row;  
+}
+.numoffriends a {
+    margin-left: 18px;
+
+}
+.friendstext{
+    color: black;
+}
+.friendsnum{
+    color:gray;
+    font-size: 16px;
+}
+.main{
+    margin-left: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #DEE5EA;
+    min-height: 850px;
+}
+.info{
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    height: 370px;
+    background-color: white;
+    
+}
+.status{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+
+}
+.name p{
+    font-size: 26px;
+}
+.quote p{
+    font-size: 20px;
+}
+.onoff p{
+    font-size: 16px;
+}
+
+.maininfo{
+    padding: 15px;
+    height: 180px;
+    background-color: white;    
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.maininfotext1{
+    width: 40%;
+    color: gray;
+}
+.numinfo{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.numinfotext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.int {
+    font-size: 22px;
+}
+.string{
+    font-size: 13px;
+    color: dimgray;
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photographtext a{
+    color: black;
+}
+
+.photostext{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.photos{
+    border-radius: 5px;
+    padding : 15px;
+    background-color: white;
+}
+
+.photo{
+    min-width: 80px;
+    height: 100px;
+}
+
+.photo img{
+    height: 100%;
+}
+
+
+
+.photostext a {
+
+    text-decoration: none;
+    color:#03416A;
+}
+
+.photographnum{
+    margin-left: 10px;
+
+}
+.photographnum a{
+    font-size: 16px;
+}
+
+.ava{
+    width: 55px;
+    height: 50px;
+
+}
+
+.article {
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+}
+
+.ava img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.myname{
+    color:#03416A;
+    font-size: 18px;
+}
+
+.time{
+    color: darkgray;
+    font-size: 12px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.date{
+    height: 40px;
+    width: 100%;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
