@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="SprintTask3.css" rel="stylesheet">">
+    <title>Document</title>
+</head>
+<script type="text/javascript" src="index.js"></script>
+<div style="display:flex; justify-content: space-around; width: 80%;" >
+    <div>
+        <p>Введите сумму:</p>
+        <div style="display:flex;">
+            <input type="text" id="input" onkeyup="Convert()">
+            <select id = "typeofmoney" onchange="Convert()">
+                <option value="kzt">KZT</option>
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <p>KZT (tenge)</p>
+        <div class="value">
+            <h5 id = "value-tenge">-</h5>
+        </div>
+    </div>
+
+    <div>
+        <p>USD (dollar)</p>
+        <div class="value">
+            <h5 id = "value-dollar">-</h5>
+        </div>
+    </div>
+
+    <div>
+        <p> EUR(euro)</p>
+        <div class="value">
+            <h5 id = "value-euro">-</h5>
+        </div>
+    </div>
+</div>
+</body>
+</html>
